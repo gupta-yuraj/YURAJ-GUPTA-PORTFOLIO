@@ -91,17 +91,19 @@ const Portfolio = () => {
     return () => observer.disconnect();
   }, []);
 
-  const handleResumeDownload = () => {
-    setIsDownloading(true);
-    const link = document.createElement("a");
-    link.href = "/asses/Yuraj-cv.pdf";
-    link.download = "Yuraj-cv.pdf";
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-    setTimeout(() => setIsDownloading(false), 1500);
-  };
+const handleResumeDownload = () => {
+  setIsDownloading(true);
 
+  const link = document.createElement("a");
+  link.href = resumeFile;   // ✅ use imported file
+  link.download = "Yuraj_Gupta_Resume.pdf";
+
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+
+  setTimeout(() => setIsDownloading(false), 1500);
+};
   const handleCopyEmail = async () => {
     try {
       await navigator.clipboard.writeText(contactInfo.email);
