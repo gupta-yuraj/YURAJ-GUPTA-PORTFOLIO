@@ -1,16 +1,37 @@
-# React + Vite
+# 🚀 Yuraj Gupta – Modern Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, glassmorphism-inspired personal portfolio built using **React**, **Vite**, and **Tailwind CSS**.
 
-Currently, two official plugins are available:
+This portfolio showcases my background as a BBA graduate transitioning into IT, highlighting my technical skills, internship experience, and passion for Linux systems and reverse engineering.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🎨 Modern Glass UI Design
+- 🖱️ Custom Animated Cursor (Desktop Only)
+- 📊 Scroll Progress Indicator
+- 🎯 Intersection Observer Section Animations
+- 📱 Fully Responsive (Mobile / Tablet / Desktop)
+- 📥 Resume Download Button
+- 📋 Click-to-Copy Email Functionality
+- 🔗 External Links Open in New Tab
+- ⚡ Smooth Animations & Hover Effects
+- 🧊 Blur + Gradient Background Effects
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+| Technology | Usage |
+|------------|--------|
+| React      | UI Framework |
+| Vite       | Fast Build Tool |
+| Tailwind CSS | Styling |
+| lucide-react | Icons |
+| IntersectionObserver | Scroll Animations |
+| Clipboard API | Copy Email |
+
+---
+
+## 📂 Project Structure
