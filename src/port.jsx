@@ -94,8 +94,8 @@ const Portfolio = () => {
   const handleResumeDownload = () => {
     setIsDownloading(true);
     const link = document.createElement("a");
-    link.href = "/resume.pdf";
-    link.download = "Yuraj_Gupta_Resume.pdf";
+    link.href = "/asses/Yuraj-cv.pdf";
+    link.download = "Yuraj-cv.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
