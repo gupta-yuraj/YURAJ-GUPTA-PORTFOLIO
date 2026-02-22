@@ -35,3 +35,17 @@ This portfolio showcases my background as a BBA graduate transitioning into IT, 
 ---
 
 ## 📂 Project Structure
+yuraj-portfolio/
+│
+├── public/
+│ └── resume.pdf
+│
+├── src/
+│ ├── Portfolio.jsx
+│ ├── App.jsx
+│ ├── main.jsx
+│ └── index.css
+│
+├── tailwind.config.js
+├── postcss.config.js
+└── package.json
