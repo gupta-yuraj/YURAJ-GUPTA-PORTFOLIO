@@ -1,5 +1,6 @@
 import resumeFile from "./assets/Yuraj-cv.pdf";
 import React, { useEffect, useState } from "react";
+import resumeFile from "./assets/Yuraj-Gupta-Resume.pdf";  // ✅ import resume file
 import {
   ArrowUpRight,
   Github,
@@ -92,8 +93,35 @@ const Portfolio = () => {
     return () => observer.disconnect();
   }, []);
 
+<<<<<<< HEAD
 const handleResumeDownload = () => {
   setIsDownloading(true);
+=======
+  // const handleResumeDownload = () => {
+  //   setIsDownloading(true);
+  //   const link = document.createElement("a");
+  //   link.href = "/assets/Yuraj-cv.pdf";
+  //   link.download = "Yuraj_Gupta_Resume.pdf";
+  //   document.body.appendChild(link);
+  //   link.click();
+  //   document.body.removeChild(link);
+  //   setTimeout(() => setIsDownloading(false), 1500);
+  // };
+
+  const handleResumeDownload = () => {
+  setIsDownloading(true);
+
+  const link = document.createElement("a");
+  link.href = resumeFile;   // ✅ use imported file
+  link.download = "Yuraj_Gupta_Resume.pdf";
+
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+
+  setTimeout(() => setIsDownloading(false), 1500);
+};
+>>>>>>> 1489203 (added new resume)
 
   const link = document.createElement("a");
   link.href = resumeFile;   // ✅ use imported file
@@ -630,7 +658,7 @@ const handleResumeDownload = () => {
           </div>
 
           <div className="text-white/40 text-xs sm:text-sm text-center sm:text-left">
-            © 2025 Yuraj Gupta. Crafted with curiosity.
+            © 2026 Yuraj Gupta. Crafted with curiosity.
           </div>
 
           <div className="flex gap-3 sm:gap-6">
